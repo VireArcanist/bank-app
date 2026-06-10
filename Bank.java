@@ -15,10 +15,7 @@ public class Bank {
 
     public Account getAccount(String iban) {
         return accounts.get(iban);
-    }
-
-
-    
+    }  
 }
 
 

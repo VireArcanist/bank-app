@@ -18,5 +18,9 @@ public class Main {
         } catch (InvalidAmountException | InsufficientFundsException e) {
             System.out.println("Error: " + e.getMessage());
         }
+
+        System.out.println("\nFinal Account States:");
+        bank.showAll();
     }
+
 }
