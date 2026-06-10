@@ -12,10 +12,13 @@ public class Bank {
             System.out.println(account.iban + " | " + account.owner + " | " + account.balance);
         }
     }
+
     public Account getAccount(String iban) {
         return accounts.get(iban);
     }
 
+
+    
 }
 
 
