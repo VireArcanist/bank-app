@@ -1,3 +1,5 @@
+package manager;
+
 import java.util.HashMap;
 
 public class Bank {
