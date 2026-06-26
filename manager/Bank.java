@@ -1,5 +1,7 @@
 package manager;
-
+import model.Account;
+import exceptions.InvalidAmountException;
+import exceptions.InsufficientFundsException;
 import java.util.HashMap;
 
 public class Bank {
