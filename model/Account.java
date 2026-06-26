@@ -1,3 +1,5 @@
+package model;
+
 public class Account { 
     String iban;
     String owner;
