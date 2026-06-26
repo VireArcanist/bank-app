@@ -1,8 +1,7 @@
 package manager;
-import model.Account;
-import exceptions.InvalidAmountException;
-import exceptions.InsufficientFundsException;
 import java.util.HashMap;
+import model.Account;
+
 
 public class Bank {
     HashMap<String, Account> accounts = new HashMap<>();
