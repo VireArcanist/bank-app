@@ -1,3 +1,8 @@
+import manager.Bank;
+import model.Account;
+import exceptions.InvalidAmountException;
+import exceptions.InsufficientFundsException;
+
 public class Main { 
     public static void main(String[] args) {
         Bank bank = new Bank();

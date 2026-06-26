@@ -1,9 +1,11 @@
 package model;
+import exceptions.InvalidAmountException;
+import exceptions.InsufficientFundsException;
 
 public class Account { 
-    String iban;
-    String owner;
-    double balance;
+    public String iban;
+    public String owner;
+    public double balance;
 
     public Account(String iban, String owner, double balance) {
         this.iban = iban;
